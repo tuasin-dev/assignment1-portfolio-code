@@ -1,0 +1,42 @@
+* {margin: 0;
+  padding: 0;
+box-sizing: border-box;}
+/* Shared style */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn {
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600 ;
+    padding: 16px;
+    background-color: #469165;
+    color: #FFFFFF;
+}
+
+/* main style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+
+}
+nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .menu a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+
+}
