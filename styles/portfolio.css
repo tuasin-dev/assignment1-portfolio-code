@@ -40,3 +40,100 @@ nav .menu a {
     text-decoration: none;
 
 }
+#banner {
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    min-height: 674px;
+    padding: 115.5px 120px 0 120px;
+}
+ 
+#banner .banner-content .banner-top .badge {
+
+    background-color: white;
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    gap: 1.5px;
+    width: fit-content;
+    margin-bottom: 16px;
+    margin: 0 auto;
+
+}
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: #b7dfc8;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot-inner {
+    width: 8px;
+    height: 8px;
+    background-color: #30b868;
+    border-radius: 50%;
+}
+#banner .banner-content .banner-top .badge .heading {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+#banner .banner-content .banner-top {
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+}
+#banner .banner-content .banner-top .h1 {
+margin-bottom: 16px;
+max-width: 770px;
+margin: 0 auto;
+} 
+#banner .banner-content .banner-top .white {
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 84px;
+}
+#banner .banner-content .banner-top .green {
+    color: #30B868;
+    font-size: 72px;
+    line-height: 84px;
+}
+/* Needs to be solved */
+#banner .banner-content .banner-top p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+#banner .banner-content .banner-button {
+    max-width: 465px;
+    margin: 0 auto;
+    margin-bottom: 183px;
+}
+
+.btn2{
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 600 ;
+    padding: 16px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+#banner .banner-content {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
