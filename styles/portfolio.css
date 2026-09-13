@@ -58,12 +58,12 @@ nav .menu a {
 #banner .banner-content .banner-top .badge {
 
     background-color: white;
-    padding: 8px 12px 8px 12px;
+    padding: 8px 12px;
     border-radius: 1000px;
     display: flex;
     align-items: center;
     gap: 1.5px;
-    width: fit-content;
+    width: 229px;
     margin-bottom: 16px;
     margin: 0 auto;
 
