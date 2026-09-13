@@ -15,6 +15,11 @@ box-sizing: border-box;}
     background-color: #469165;
     color: #FFFFFF;
 }
+.section-heading {
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+}
 
 /* main style */
 nav {
@@ -90,11 +95,6 @@ nav .menu a {
     width: 85%;
     margin: 0 auto;
 }
-#banner .banner-content .banner-top .h1 {
-margin-bottom: 16px;
-max-width: 770px;
-margin: 0 auto;
-} 
 #banner .banner-content .banner-top .white {
     color: #FFFFFF;
     font-size: 72px;
@@ -108,18 +108,18 @@ margin: 0 auto;
 /* Needs to be solved */
 #banner .banner-content .banner-top p {
     font-size: 18px;
-    font-weight: 400;
     line-height: 24px;
     color: #FFFFFF;
+    margin-bottom: 32px;
     max-width: 700px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 32px;
 }
 #banner .banner-content .banner-button {
     max-width: 465px;
     margin: 0 auto;
     margin-bottom: 183px;
+    margin-top: 32px;
 }
 
 .btn2{
@@ -136,4 +136,63 @@ margin: 0 auto;
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
+}
+#notes {
+    padding-top: 120px;
+}
+#notes .notes-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+#notes .notes-container .notes-heading {
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+.notes-heading h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.notes-heading p {
+    font-size: 16px;
+    line-height: 20px;
+}
+#notes .notes-container .notes-box {
+    display: flex;
+    gap: 24px;
+}
+#notes .notes-container .notes-box .notes-card {
+    padding: 70px 24px;
+    /* border: 1px solid red; */
+    max-width: 322px;
+    box-shadow: 0 0 8px 0 #00000028;
+}
+ .notes-card img {
+  width: 60px;
+  height: 60px;
+  /* display: block; */
+  background-color: #F95555;
+  border-radius: 50%;
+  padding: 14px 14px;
+  margin-bottom: 16px;
+}
+.notes-card .img {
+    max-width: 60px;
+    margin: 0 auto;
+}
+.notes-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+.notes-card p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
