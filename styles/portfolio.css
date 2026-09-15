@@ -15,6 +15,9 @@ box-sizing: border-box;}
     background-color: #469165;
     color: #FFFFFF;
 }
+.btn:hover {
+    background-color: #38a16961;
+}
 .section-heading {
     max-width: 1360px;
     text-align: center;
@@ -132,6 +135,9 @@ nav .menu a {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 4px;
+}
+.btn2:hover {
+    background-color: #031b33 ;
 }
 #banner .banner-content {
     width: 85%;
